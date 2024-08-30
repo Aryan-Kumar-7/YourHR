@@ -3,7 +3,6 @@ import './SignUp.css';
 
 function SignUp() {
 
-  const url = "https://yourhr-qaon.onrender.com";
 
   const [formData, setFormData] = useState({
     name: '',
@@ -37,7 +36,7 @@ function SignUp() {
     formDataObj.append('resume', formData.resume);
 
     try {
-      const response = await fetch('url/api/users/signup', {
+      const response = await fetch('http://localhost:5000/api/users/signup', {
         method: 'POST',
         body: formDataObj,
       });
