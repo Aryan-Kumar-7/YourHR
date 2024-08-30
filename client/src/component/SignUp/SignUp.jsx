@@ -3,7 +3,7 @@ import './SignUp.css';
 
 function SignUp() {
 
-  const url = "http://localhost:5000";
+  const url = "https://yourhr-qaon.onrender.com";
 
   const [formData, setFormData] = useState({
     name: '',
