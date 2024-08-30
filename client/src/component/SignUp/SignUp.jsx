@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import './SignUp.css';
 
 function SignUp() {
+
+  const url = "http://localhost:5000";
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -34,7 +37,7 @@ function SignUp() {
     formDataObj.append('resume', formData.resume);
 
     try {
-      const response = await fetch('http://localhost:5000/api/users/signup', {
+      const response = await fetch('url/api/users/signup', {
         method: 'POST',
         body: formDataObj,
       });
