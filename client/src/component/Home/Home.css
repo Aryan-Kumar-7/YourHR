@@ -1,0 +1,29 @@
+.home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .home-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  .home-content {
+    margin-top: 20px;
+  }
+  
+  .signup-button {
+    background-color: #61dafb;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+  .signup-button:hover {
+    background-color: #21a1f1;
+  }
+  
